@@ -35,7 +35,7 @@ Day 27:
 
 Script to download:
 
-https://github.com/RamanyTech/Splunk_Admin_Day1_to_100
+https://github.com/RamanyTech/Splunk_Admin_Day1_to_100/blob/main/Day%2027/github-commits.py
 
 Location to paste:
 
