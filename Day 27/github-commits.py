@@ -44,14 +44,13 @@ def fetch_commits(owner, repo, checkpoint_file, per_page=30, token=None):
                 commit_date = commit['commit']['author']['date']
                 commit_date_epoch = iso_to_epoch(commit_date)
                 if last_fetched_epoch is None or commit_date_epoch > last_fetched_epoch:
-                    del commit["commit"]["verification"]
                     print(json.dumps(commit))
                     if last_fetched_epoch_temp is None or last_fetched_epoch_temp < commit_date_epoch:
                         last_fetched_epoch_temp = commit_date_epoch
                     
             save_checkpoint(checkpoint_file, last_fetched_epoch_temp)
         else:
-            print("LNo new commits found.")
+            print("No new commits found.")
     else:
         print(f"Error: Unable to fetch commits. Status code: {response.status_code}, Message: {response.text}")
 
