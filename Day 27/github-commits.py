@@ -32,11 +32,6 @@ def fetch_commits(owner, repo, checkpoint_file, per_page=30, token=None):
     last_fetched_epoch = load_checkpoint(checkpoint_file)
     params = {"per_page": per_page}
 
-    if last_fetched_epoch:
-        # Convert epoch to ISO 8601 format for the "since" parameter
-        last_fetched_date = datetime.utcfromtimestamp(last_fetched_epoch).strftime("%Y-%m-%d")
-        params["since"] = last_fetched_date
-
     response = requests.get(url, headers=headers, params=params)
 
     if response.status_code == 200:
@@ -44,15 +39,19 @@ def fetch_commits(owner, repo, checkpoint_file, per_page=30, token=None):
 
         if commits:
             # Process commits
+            last_fetched_epoch_temp = last_fetched_epoch
             for commit in commits:
-                del commit["commit"]["verification"]
-                print(json.dumps(commit))
+                commit_date = commit['commit']['author']['date']
+                commit_date_epoch = iso_to_epoch(commit_date)
+                if last_fetched_epoch is None or commit_date_epoch > last_fetched_epoch:
+                    del commit["commit"]["verification"]
+                    print(json.dumps(commit))
+                    if last_fetched_epoch_temp is None or last_fetched_epoch_temp < commit_date_epoch:
+                        last_fetched_epoch_temp = commit_date_epoch
                     
-            latest_commit_date = commits[0]['commit']['author']['date']
-            latest_commit_epoch = iso_to_epoch(latest_commit_date)
-            save_checkpoint(checkpoint_file, latest_commit_epoch)
+            save_checkpoint(checkpoint_file, last_fetched_epoch_temp)
         else:
-            print("No new commits found.")
+            print("LNo new commits found.")
     else:
         print(f"Error: Unable to fetch commits. Status code: {response.status_code}, Message: {response.text}")
 
