@@ -60,5 +60,5 @@ REPO = "REPO_NAME"    # Replace with the repository name
 CHECKPOINT_FILE = "/opt/splunk/etc/apps/search/bin/checkpoint.txt"  # Path to checkpoint file
 GITHUB_TOKEN = "GTIHUB_TOKEN"  # Replace with your GitHub token
 
-# Fetch commits
+# Fetch commits - call
 fetch_commits(OWNER, REPO, CHECKPOINT_FILE, token=GITHUB_TOKEN)
