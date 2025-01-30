@@ -15,20 +15,6 @@ def generate_postfix_syslog():
         postfix_logs.append(f"{timestamp} server postfix/smtp[{random.randint(1000, 9999)}]: {message_id}: to=<{recipient}>, relay={relay_ip}[{random.randint(1000, 9999)}]:25, delay={delay}, status={status} (250 2.0.0 Ok: queued as {random.randint(1000, 9999)})")
     return "\n".join(postfix_logs)
 
-# Function to generate realistic cisco syslog sample data (100 lines)
-def generate_cisco_syslog():
-    cisco_logs = []
-    for i in range(100):
-        timestamp = datetime.now().strftime("%b %d %H:%M:%S")
-        log_level = random.choice(['%SYS-5', '%LINEPROTO-5', '%SNMP-3', '%IPV6-6'])
-        message = random.choice([
-            "Configured from console by user on vty0",
-            "Line protocol on Interface FastEthernet0/1, changed state to up",
-            "Authentication failure for SNMP request from host",
-            "IP address configured on the router interface"
-        ])
-        cisco_logs.append(f"{timestamp} cisco-router-01 {log_level}-UPDOWN: {message}")
-    return "\n".join(cisco_logs)
 
 # Function to generate realistic breakable text sample data (100 lines)
 def generate_breakable_text():
@@ -42,20 +28,6 @@ def generate_breakable_text():
             breakable_text_logs.append(f"Sample log data without a timestamp. Random text on line {i + 1}.")
     return "\n".join(breakable_text_logs)
 
-# Function to generate realistic generic syslog sample data (100 lines)
-def generate_generic_syslog():
-    generic_syslog_logs = []
-    for i in range(100):
-        timestamp = datetime.now().strftime("%b %d %H:%M:%S")
-        message = random.choice([
-            "syslogd version 1.4.2 started",
-            "last message repeated 5 times",
-            "syslogd restarting after crash",
-            "failed to write to the log file",
-            "disk space usage is at 85%"
-        ])
-        generic_syslog_logs.append(f"{timestamp} server syslogd[{random.randint(1000, 9999)}]: {message}")
-    return "\n".join(generic_syslog_logs)
 
 # Function to save data to a file
 def save_to_file(filename, data):
@@ -66,15 +38,11 @@ def save_to_file(filename, data):
 def generate_and_save_logs():
     # Generate logs
     postfix_data = generate_postfix_syslog()
-    cisco_data = generate_cisco_syslog()
     breakable_text_data = generate_breakable_text()
-    generic_syslog_data = generate_generic_syslog()
-    
+
     # Save logs to files
     save_to_file('postfix_syslog.log', postfix_data)
-    save_to_file('cisco_syslog.log', cisco_data)
     save_to_file('breakable_text.log', breakable_text_data)
-    save_to_file('syslog.log', generic_syslog_data)
     
     print("Sample log files with 100 lines generated successfully!")
 
