@@ -46,7 +46,7 @@ for host in hosts:
 
     with open(host_syslog_path, "w") as f:
         for _ in range(50):
-            log_entry = f"{random_time()} {host} {random.choice(protocols)}[{random.randint(1000, 9999)}]: " \
+            log_entry = f"{random_time()} {random.choice(protocols)}[{random.randint(1000, 9999)}]: " \
                         f"Routing event detected."
             f.write(log_entry + "\n")
 
@@ -62,7 +62,7 @@ with open(date_syslog_path, "w") as f:
         f.write(log_entry + "\n")
 
 # **4. Device-Type-Based Folder Structure**
-device_types = ["firewall", "router", "switch"]
+device_types = ["firewall_device", "router_device", "switch_device"]
 for device in device_types:
     device_syslog_path = os.path.join(BASE_DIR, "var", "log", "syslog", device, "syslog.log")
     os.makedirs(os.path.dirname(device_syslog_path), exist_ok=True)
@@ -81,7 +81,7 @@ for host in hosts:
 
     with open(hybrid_syslog_path, "w") as f:
         for _ in range(50):
-            log_entry = f"{random_date()} {host} LINK-3-UPDOWN: Interface {random.choice(interfaces)}, changed state to up."
+            log_entry = f"{random_date()} LINK-3-UPDOWN: Interface {random.choice(interfaces)}, changed state to up."
             f.write(log_entry + "\n")
 
 print(f"Sample syslog data generated at: {BASE_DIR}")
