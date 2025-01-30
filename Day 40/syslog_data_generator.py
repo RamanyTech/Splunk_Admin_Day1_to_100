@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta
 
 # Define base directory for logs
-BASE_DIR = "sample_syslog_data"
+BASE_DIR = "/"
 
 # Ensure base directory exists
 os.makedirs(BASE_DIR, exist_ok=True)
