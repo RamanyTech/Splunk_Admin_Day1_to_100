@@ -9,7 +9,7 @@ BASE_DIR = "/"
 os.makedirs(BASE_DIR, exist_ok=True)
 
 # Sample Data Pools
-hosts = ["server1", "router1", "firewall1", "switch-core"]
+hosts = ["host_server1", "host_router1", "host_firewall1", "host_switch-core"]
 processes = ["kernel", "sshd", "systemd"]
 protocols = ["BGP", "OSPF", "INTERFACE"]
 firewall_actions = ["BLOCK", "ALLOW"]
