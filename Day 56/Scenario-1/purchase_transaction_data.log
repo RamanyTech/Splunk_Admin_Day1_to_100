@@ -1,0 +1,45 @@
+2024-04-20 10:27:50 [ERROR] Transaction failed. Item: DisplayPort Cable, Purchase_Price: $10, Loss_Percentage: 4%, Selling_Price: $9.6, IP_Address: 10.0.0.160, Region: Asia
+2024-04-20 10:24:35 [INFO] Transaction completed. Item: VGA Cable, Purchase_Price: $10, Loss_Percentage: 1%, Selling_Price: $10.1, IP_Address: 172.16.10.65, Region: EU
+2024-04-20 10:21:20 [INFO] Transaction completed. Item: HDMI Cable, Purchase_Price: $10, Loss_Percentage: 1%, Selling_Price: $10.1, IP_Address: 192.168.1.80, Region: US
+2024-04-20 10:18:05 [ERROR] Transaction failed. Item: Cable Management Box, Purchase_Price: $20, Loss_Percentage: 6%, Selling_Price: $18.8, IP_Address: 10.0.0.150, Region: Asia
+2024-04-20 10:14:50 [INFO] Transaction completed. Item: Cable Raceway, Purchase_Price: $15, Loss_Percentage: 2%, Selling_Price: $15.3, IP_Address: 172.16.10.60, Region: EU
+2024-04-20 10:11:35 [INFO] Transaction completed. Item: Cable Ties, Purchase_Price: $5, Loss_Percentage: 1%, Selling_Price: $5.05, IP_Address: 192.168.1.75, Region: US
+2024-04-20 10:08:20 [ERROR] Transaction failed. Item: Desk Lamp, Purchase_Price: $30, Loss_Percentage: 5%, Selling_Price: $28.5, IP_Address: 10.0.0.140, Region: Asia
+2024-04-20 10:05:05 [INFO] Transaction completed. Item: Cable Sleeve, Purchase_Price: $10, Loss_Percentage: 1%, Selling_Price: $10.1, IP_Address: 172.16.10.55, Region: EU
+2024-04-20 10:01:50 [INFO] Transaction completed. Item: Laptop Bag, Purchase_Price: $20, Loss_Percentage: 2%, Selling_Price: $20.4, IP_Address: 192.168.1.70, Region: US
+2024-04-20 09:58:35 [ERROR] Transaction failed. Item: Surge Protector, Purchase_Price: $20, Loss_Percentage: 6%, Selling_Price: $18.8, IP_Address: 10.0.0.130, Region: Asia
+2024-04-20 09:55:20 [INFO] Transaction completed. Item: Cable Clips, Purchase_Price: $5, Loss_Percentage: 1%, Selling_Price: $5.05, IP_Address: 172.16.10.50, Region: EU
+2024-04-20 09:52:05 [INFO] Transaction completed. Item: USB Hub, Purchase_Price: $15, Loss_Percentage: 2%, Selling_Price: $15.3, IP_Address: 192.168.1.65, Region: US
+2024-04-20 09:48:50 [ERROR] Transaction failed. Item: Mouse Pad, Purchase_Price: $5, Loss_Percentage: 4%, Selling_Price: $4.8, IP_Address: 10.0.0.120, Region: Asia
+2024-04-20 09:45:35 [INFO] Transaction completed. Item: LED Strip Lights, Purchase_Price: $20, Loss_Percentage: 1%, Selling_Price: $20.2, IP_Address: 172.16.10.45, Region: EU
+2024-04-20 09:42:20 [INFO] Transaction completed. Item: Desk Organizer, Purchase_Price: $30, Loss_Percentage: 2%, Selling_Price: $30.6, IP_Address: 192.168.1.60, Region: US
+2024-04-20 09:39:05 [ERROR] Transaction failed. Item: Gaming Chair, Purchase_Price: $200, Loss_Percentage: 8%, Selling_Price: $184, IP_Address: 10.0.0.110, Region: Asia
+2024-04-20 09:35:50 [INFO] Transaction completed. Item: Cable Management Kit, Purchase_Price: $10, Loss_Percentage: 1%, Selling_Price: $10.1, IP_Address: 172.16.10.40, Region: EU
+2024-04-20 09:31:35 [INFO] Transaction completed. Item: Laptop Stand, Purchase_Price: $25, Loss_Percentage: 2%, Selling_Price: $25.5, IP_Address: 192.168.1.55, Region: US
+2024-04-20 09:28:20 [ERROR] Transaction failed. Item: Case, Purchase_Price: $70, Loss_Percentage: 5%, Selling_Price: $66.5, IP_Address: 10.0.0.100, Region: Asia
+2024-04-20 09:25:05 [INFO] Transaction completed. Item: Case Fan, Purchase_Price: $15, Loss_Percentage: 2%, Selling_Price: $15.3, IP_Address: 172.16.10.35, Region: EU
+2024-04-20 09:21:50 [INFO] Transaction completed. Item: Thermal Paste, Purchase_Price: $5, Loss_Percentage: 1%, Selling_Price: $5.05, IP_Address: 192.168.1.50, Region: US
+2024-04-20 09:18:35 [ERROR] Transaction failed. Item: Optical Drive, Purchase_Price: $50, Loss_Percentage: 8%, Selling_Price: $46, IP_Address: 10.0.0.90, Region: Asia
+2024-04-20 09:15:20 [INFO] Transaction completed. Item: CPU Cooler, Purchase_Price: $60, Loss_Percentage: 3%, Selling_Price: $61.8, IP_Address: 172.16.10.30, Region: EU
+2024-04-20 09:12:10 [INFO] Transaction completed. Item: Microphone, Purchase_Price: $40, Loss_Percentage: 2%, Selling_Price: $40.8, IP_Address: 192.168.1.45, Region: US
+2024-04-20 09:08:55 [ERROR] Transaction failed. Item: Bluetooth Adapter, Purchase_Price: $20, Loss_Percentage: 6%, Selling_Price: $18.8, IP_Address: 10.0.0.80, Region: Asia
+2024-04-20 09:05:45 [INFO] Transaction completed. Item: Speaker, Purchase_Price: $100, Loss_Percentage: 4%, Selling_Price: $104, IP_Address: 172.16.10.25, Region: EU
+2024-04-20 09:01:30 [INFO] Transaction completed. Item: Ethernet Cable, Purchase_Price: $10, Loss_Percentage: 1%, Selling_Price: $10.1, IP_Address: 192.168.1.40, Region: US
+2024-04-20 08:58:25 [ERROR] Transaction failed. Item: CPU, Purchase_Price: $300, Loss_Percentage: 7%, Selling_Price: $279, IP_Address: 10.0.0.70, Region: Asia
+2024-04-20 08:55:10 [INFO] Transaction completed. Item: RAM, Purchase_Price: $80, Loss_Percentage: 3%, Selling_Price: $82.4, IP_Address: 172.16.10.20, Region: EU
+2024-04-20 08:51:59 [INFO] Transaction completed. Item: Power Bank, Purchase_Price: $30, Loss_Percentage: 2%, Selling_Price: $30.6, IP_Address: 192.168.1.35, Region: US
+2024-04-20 08:48:45 [ERROR] Transaction failed. Item: Graphics Card, Purchase_Price: $400, Loss_Percentage: 10%, Selling_Price: $360, IP_Address: 10.0.0.60, Region: Asia
+2024-04-20 08:45:30 [INFO] Transaction completed. Item: SSD, Purchase_Price: $150, Loss_Percentage: 2%, Selling_Price: $153, IP_Address: 172.16.10.18, Region: EU
+2024-04-20 08:43:12 [INFO] Transaction completed. Item: Webcam, Purchase_Price: $60, Loss_Percentage: 3%, Selling_Price: $61.8, IP_Address: 192.168.1.30, Region: US
+2024-04-20 08:40:55 [ERROR] Transaction failed. Item: Router, Purchase_Price: $90, Loss_Percentage: 5%, Selling_Price: $85.5, IP_Address: 10.0.0.50, Region: Asia
+2024-04-20 08:37:40 [INFO] Transaction completed. Item: External Hard Drive, Purchase_Price: $80, Loss_Percentage: 2%, Selling_Price: $81.6, IP_Address: 172.16.10.15, Region: EU
+2024-04-20 08:35:28 [INFO] Transaction completed. Item: Mouse, Purchase_Price: $20, Loss_Percentage: 1%, Selling_Price: $20.2, IP_Address: 192.168.1.25, Region: US
+2024-04-20 08:32:10 [ERROR] Transaction failed. Item: Printer, Purchase_Price: $150, Loss_Percentage: 7%, Selling_Price: $139, IP_Address: 10.0.0.40, Region: Asia
+2024-04-20 08:30:59 [INFO] Transaction completed. Item: Keyboard, Purchase_Price: $50, Loss_Percentage: 2%, Selling_Price: $51, IP_Address: 172.16.10.12, Region: EU
+2024-04-20 08:28:45 [INFO] Transaction completed. Item: Monitor, Purchase_Price: $300, Loss_Percentage: 3%, Selling_Price: $309, IP_Address: 192.168.1.20, Region: US
+2024-04-20 08:25:17 [ERROR] Transaction failed. Item: Camera, Purchase_Price: $700, Loss_Percentage: 6%, Selling_Price: $650, IP_Address: 10.0.0.30, Region: Asia
+2024-04-20 08:22:30 [INFO] Transaction completed. Item: Headphones, Purchase_Price: $100, Loss_Percentage: 4%, Selling_Price: $105, IP_Address: 172.16.10.8, Region: EU
+2024-04-20 08:20:10 [INFO] Transaction completed. Item: Smart Watch, Purchase_Price: $200, Loss_Percentage: 2%, Selling_Price: $205, IP_Address: 192.168.1.15, Region: US
+2024-04-20 08:17:52 [ERROR] Transaction failed. Item: Tablet, Purchase_Price: $500, Loss_Percentage: 8%, Selling_Price: $460, IP_Address: 10.0.0.20, Region: Asia
+2024-04-20 08:16:45 [INFO] Transaction completed. Item: Smartphone, Purchase_Price: $800, Loss_Percentage: 3%, Selling_Price: $850, IP_Address: 172.16.10.5, Region: EU
+2024-04-20 08:15:23 [INFO] Transaction completed. Item: Laptop, Purchase_Price: $1200, Loss_Percentage: 5%, Selling_Price: $1300, IP_Address: 192.168.1.10, Region: US
