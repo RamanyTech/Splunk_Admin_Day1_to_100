@@ -1,0 +1,11 @@
+Employee ID,First Name,Last Name,Department,Position,Salary
+1,John,Smith,HR,Manager,"$60,000"
+2,Emily,Johnson,Sales,Sales Rep,"$45,000"
+3,Michael,Williams,IT,Programmer,"$55,000"
+4,Sarah,Brown,Marketing,Analyst,"$50,000"
+5,David,Jones,Finance,Accountant,"$52,000"
+6,Jennifer,Davis,HR,Assistant,"$40,000"
+7,Robert,Martinez,IT,Engineer,"$58,000"
+8,Jessica,Garcia,Sales,Manager,"$65,000"
+9,Daniel,Rodriguez,Marketing,Coordinator,"$48,000"
+10,Amanda,Wilson,Finance,Analyst,"$53,000"
