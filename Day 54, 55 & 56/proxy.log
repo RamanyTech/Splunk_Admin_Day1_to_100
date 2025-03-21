@@ -1,0 +1,12 @@
+2024-11-07 11:10:15,Source=Proxy,ClientIP=192.168.1.100,UserID=user_001,Username=Ramany,URL=http://example.com/page1,Action=Allowed,ResponseCode=200,Bytes=1024,Outcome=Success
+2024-11-07 11:15:20,Source=Proxy,ClientIP=192.168.1.101,UserID=user_002,Username=Murugan,URL=http://example.com/page2,Action=Blocked,ResponseCode=403,Bytes=0,Outcome=Failure
+2024-11-07 11:20:25,Source=Proxy,ClientIP=192.168.1.102,UserID=user_003,Username=Varsha,URL=http://example.com/page3,Action=Allowed,ResponseCode=200,Bytes=2048,Outcome=Success
+2024-11-07 11:25:30,Source=Proxy,ClientIP=192.168.1.103,UserID=user_004,Username=Rahuman,URL=http://blockedsite.com,Action=Blocked,ResponseCode=403,Bytes=0,Outcome=Failure
+2024-11-07 11:30:35,Source=Proxy,ClientIP=192.168.1.100,UserID=user_001,Username=Ramany,URL=http://example.com/page1,Action=Allowed,ResponseCode=200,Bytes=1024,Outcome=Success
+2024-11-07 11:35:40,Source=Proxy,ClientIP=192.168.1.101,UserID=user_002,Username=Murugan,URL=http://example.com/page2,Action=Blocked,ResponseCode=403,Bytes=0,Outcome=Failure
+2024-11-07 11:40:45,Source=Proxy,ClientIP=192.168.1.102,UserID=user_003,Username=Varsha,URL=http://example.com/page3,Action=Allowed,ResponseCode=200,Bytes=2048,Outcome=Success
+2024-11-07 11:45:50,Source=Proxy,ClientIP=192.168.1.103,UserID=user_004,Username=Rahuman,URL=http://blockedsite.com,Action=Blocked,ResponseCode=403,Bytes=0,Outcome=Failure
+2024-11-07 11:50:55,Source=Proxy,ClientIP=192.168.1.100,UserID=user_001,Username=Ramany,URL=http://example.com/page1,Action=Allowed,ResponseCode=200,Bytes=1024,Outcome=Success
+2024-11-07 11:55:00,Source=Proxy,ClientIP=192.168.1.101,UserID=user_002,Username=Murugan,URL=http://example.com/page2,Action=Blocked,ResponseCode=403,Bytes=0,Outcome=Failure
+2024-11-07 12:00:05,Source=Proxy,ClientIP=192.168.1.102,UserID=user_003,Username=Varsha,URL=http://example.com/page3,Action=Allowed,ResponseCode=200,Bytes=2048,Outcome=Success
+2024-11-07 12:05:10,Source=Proxy,ClientIP=192.168.1.103,UserID=user_004,Username=Rahuman,URL=http://blockedsite.com,Action=Blocked,ResponseCode=403,Bytes=0,Outcome=Failure

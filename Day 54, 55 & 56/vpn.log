@@ -1,0 +1,12 @@
+2024-11-07 10:05:22,Source=VPN,Event=Connection,UserID=user_001,User-Name=Ramany,ClientIP=192.168.1.50,ServerIP=10.10.0.1,SessionID=ABC12345,Status=Connected,Duration=300,Outcome=Success
+2024-11-07 10:08:47,Source=VPN,Event=Disconnection,UserID=user_001,User-Name=Ramany,ClientIP=192.168.1.50,ServerIP=10.10.0.1,SessionID=ABC12345,Status=Disconnected,Duration=310,Outcome=Success
+2024-11-07 10:10:22,Source=VPN,Event=Connection,UserID=user_002,User-Name=Murugan,ClientIP=192.168.1.51,ServerIP=10.10.0.2,SessionID=XYZ67890,Status=Connected,Duration=450,Outcome=Success
+2024-11-07 10:15:12,Source=VPN,Event=ConnectionAttempt,UserID=user_003,User-Name=Varsha,ClientIP=192.168.1.52,ServerIP=10.10.0.3,SessionID=N/A,Status=Failed,Duration=0,Outcome=Failure
+2024-11-07 10:18:45,Source=VPN,Event=Connection,UserID=user_004,User-Name=Rahuman,ClientIP=192.168.1.53,ServerIP=10.10.0.4,SessionID=DEF13579,Status=Connected,Duration=200,Outcome=Success
+2024-11-07 10:22:08,Source=VPN,Event=Disconnection,UserID=user_004,User-Name=Rahuman,ClientIP=192.168.1.53,ServerIP=10.10.0.4,SessionID=DEF13579,Status=Disconnected,Duration=210,Outcome=Success
+2024-11-07 10:25:05,Source=VPN,Event=ConnectionAttempt,UserID=user_001,User-Name=Ramany,ClientIP=192.168.1.54,ServerIP=10.10.0.5,SessionID=N/A,Status=Failed,Duration=0,Outcome=Failure
+2024-11-07 10:30:18,Source=VPN,Event=Connection,UserID=user_002,User-Name=Murugan,ClientIP=192.168.1.55,ServerIP=10.10.0.6,SessionID=HIJ24680,Status=Connected,Duration=310,Outcome=Success
+2024-11-07 10:35:12,Source=VPN,Event=Disconnection,UserID=user_003,User-Name=Varsha,ClientIP=192.168.1.52,ServerIP=10.10.0.3,SessionID=N/A,Status=Disconnected,Duration=0,Outcome=Failure
+2024-11-07 10:38:50,Source=VPN,Event=Connection,UserID=user_004,User-Name=Rahuman,ClientIP=192.168.1.53,ServerIP=10.10.0.4,SessionID=DEF13579,Status=Connected,Duration=200,Outcome=Success
+2024-11-07 10:42:08,Source=VPN,Event=Disconnection,UserID=user_004,User-Name=Rahuman,ClientIP=192.168.1.53,ServerIP=10.10.0.4,SessionID=DEF13579,Status=Disconnected,Duration=210,Outcome=Success
+2024-11-07 10:47:22,Source=VPN,Event=ConnectionAttempt,UserID=user_003,User-Name=Varsha,ClientIP=192.168.1.52,ServerIP=10.10.0.3,SessionID=N/A,Status=Failed,Duration=0,Outcome=Failure

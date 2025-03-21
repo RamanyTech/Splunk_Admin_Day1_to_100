@@ -1,0 +1,12 @@
+2024-11-07 12:15:10,Source=Email,Event=Send,userNameID=userName_001,userName=Ramany,Sender=ramany@example.com,Recipient=varsha@example.com,Subject="Monthly Report",Status=Delivered,Size=5240KB,Outcome=Success
+2024-11-07 12:17:22,Source=Email,Event=Receive,userNameID=userName_002,userName=Murugan,Sender=murugan@example.com,Recipient=ramany@example.com,Subject="Project Update",Status=Delivered,Size=1040KB,Outcome=Success
+2024-11-07 12:20:45,Source=Email,Event=Send,userNameID=userName_003,userName=Varsha,Sender=varsha@example.com,Recipient=rahuman@example.com,Subject="Confidential Data",Status=Blocked,Size=3080KB,Outcome=Failure
+2024-11-07 12:25:30,Source=Email,Event=Receive,userNameID=userName_004,userName=Rahuman,Sender=external@example.com,Recipient=rahuman@example.com,Subject="Security Update",Status=Delivered,Size=2560KB,Outcome=Success
+2024-11-07 12:30:15,Source=Email,Event=Send,userNameID=userName_001,userName=Ramany,Sender=ramany@example.com,Recipient=murugan@example.com,Subject="New Requirements",Status=Delivered,Size=1200KB,Outcome=Success
+2024-11-07 12:35:45,Source=Email,Event=Receive,userNameID=userName_002,userName=Murugan,Sender=varsha@example.com,Recipient=murugan@example.com,Subject="Schedule Confirmation",Status=Delivered,Size=2040KB,Outcome=Success
+2024-11-07 12:40:10,Source=Email,Event=Send,userNameID=userName_003,userName=Varsha,Sender=varsha@example.com,Recipient=ramany@example.com,Subject="Task List",Status=Delivered,Size=1040KB,Outcome=Success
+2024-11-07 12:45:50,Source=Email,Event=Receive,userNameID=userName_004,userName=Rahuman,Sender=ramany@example.com,Recipient=rahuman@example.com,Subject="Project Timeline",Status=Delivered,Size=3540KB,Outcome=Success
+2024-11-07 12:50:22,Source=Email,Event=Send,userNameID=userName_001,userName=Ramany,Sender=ramany@example.com,Recipient=varsha@example.com,Subject="Report Summary",Status=Delivered,Size=5000KB,Outcome=Success
+2024-11-07 12:55:32,Source=Email,Event=Receive,userNameID=userName_002,userName=Murugan,Sender=external@example.com,Recipient=murugan@example.com,Subject="Important Notice",Status=Delivered,Size=2560KB,Outcome=Success
+2024-11-07 13:00:45,Source=Email,Event=Send,userNameID=userName_003,userName=Varsha,Sender=varsha@example.com,Recipient=ramany@example.com,Subject="Meeting Follow-up",Status=Delivered,Size=2048KB,Outcome=Success
+2024-11-07 13:05:18,Source=Email,Event=Receive,userNameID=userName_004,userName=Rahuman,Sender=murugan@example.com,Recipient=rahuman@example.com,Subject="Technical Specification",Status=Delivered,Size=4500KB,Outcome=Success
