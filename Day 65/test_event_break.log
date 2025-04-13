@@ -1,0 +1,13 @@
+Jul 30 00:21:30 amritDesktop sshd[30631]: Accepted publickey for amrit from 172.16.5.23 port 63387 ssh2
+Jul 30 00:21:30 amritDesktop sshd[30631]: User authenticated successfully
+Jul 30 00:21:30 amritDesktop sshd[30631]: Session opened for user amrit
+Jul 30 00:23:05 testNode sshd[30429]: Received disconnect from 172.16.5.23: 11: disconnected by user
+Jul 30 00:23:06 backendPC ERROR:
+Traceback (most recent call last):
+  File "/home/user/project/main.py", line 12, in <module>
+    result = divide(5, 0)
+  File "/home/user/project/utils.py", line 4, in divide
+    return x / y
+ZeroDivisionError: division by zero
+Jul 30 00:23:10 server01 sshd[30605]: Accepted publickey for testadmin from 192.168.1.100 port 59294 ssh2
+Jul 30 00:23:15 server01 sshd[30476]: Received disconnect from 192.168.1.100: 11: disconnected by user
